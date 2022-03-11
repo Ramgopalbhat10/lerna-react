@@ -1,0 +1,20 @@
+{
+  "name": "@mrgb/root",
+  "version": "1.0.0",
+  "description": "Lerna monorepos for React applications",
+  "private": true,
+  "scripts": {
+    "start:react-rtk:dev": "lerna exec --scope @mrgb/react-rtk -- yarn dev"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
